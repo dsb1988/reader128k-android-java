@@ -3,21 +3,16 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
-  <component name="IdProvider" IDEtalkID="25F965F4A51D3F3BC3DB34EB250D6A37" />
   <component name="IvyIDEA.ProjectSettings">
     <option name="artifactTypeSettings">
-      <ArtifactTypeSettings>
-        <option name="classesTypes" value="jar, mar, sar, war, ear, ejb, bundle, test-jar" />
-        <option name="javadocTypes" value="javadoc, doc, docs, apidoc, apidocs, documentation, documents" />
-        <option name="sourcesTypes" value="source, src, sources, srcs" />
-      </ArtifactTypeSettings>
+      <ArtifactTypeSettings />
     </option>
     <option name="propertiesSettings">
       <PropertiesSettings />
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="Android SDK" project-jdk-type="Android SDK">
-    <output url="file://$PROJECT_DIR$/out" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
 </project>
 

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/reader128k/reader128k.iml" filepath="$PROJECT_DIR$/reader128k/reader128k.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reader128k-android.iml" filepath="$PROJECT_DIR$/reader128k-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/volley/volley.iml" filepath="$PROJECT_DIR$/libraries/volley/volley.iml" />
     </modules>
   </component>
 </project>

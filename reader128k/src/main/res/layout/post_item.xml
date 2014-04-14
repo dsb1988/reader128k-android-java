@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/posts_item_bg"
+              android:padding="16dp">
+
+    <ImageView android:layout_width="24dp"
+               android:layout_height="24dp"
+               android:layout_alignParentLeft="true"
+               android:id="@+id/post_gravatar_prefix"
+               android:layout_marginBottom="8dp" />
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_toRightOf="@+id/post_gravatar_prefix"
+              android:layout_marginLeft="8dp"
+              android:layout_marginTop="4dp"
+              android:textSize="12sp"
+              android:textColor="#b3b3b3"
+              android:id="@+id/poster_name" />
+
+    <TextView android:id="@+id/post_title"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/post_gravatar_prefix"
+              android:textSize="20sp"
+              android:textStyle="bold"
+              android:textColor="#669900" />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_vertical"
+                  android:layout_marginTop="8dp"
+                  android:layout_below="@+id/post_title"
+                  android:weightSum="2">
+
+        <TextView android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/post_source_title"
+                  android:gravity="left"
+                  android:textSize="12sp"
+                  android:textColor="#b3b3b3" />
+
+        <TextView android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/post_date"
+                  android:textSize="12sp"
+                  android:gravity="right"
+                  android:textColor="#b3b3b3" />
+    </LinearLayout>
+</RelativeLayout>
